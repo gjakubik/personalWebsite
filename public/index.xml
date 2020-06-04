@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gavin Jakubik</title>
+    <link>https://gavinjakubik.me/</link>
+    <description>Recent content on Gavin Jakubik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 04 Jun 2020 22:13:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://gavinjakubik.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About Me</title>
+      <link>https://gavinjakubik.me/about-hugo/</link>
+      <pubDate>Thu, 04 Jun 2020 22:26:56 +0000</pubDate>
+      
+      <guid>https://gavinjakubik.me/about-hugo/</guid>
+      <description>I am a Junior Computer Science student at the University of Notre Dame. I am interested in learning more about web development and computer networks, and I made this site to begin gaining experience with both of those skillsets, along with having a space to share updates on my progress. I currently have links to my GitLab, which I mostly use for school assignments, my LinkedIn, and my GitHub, which I will be adding my own projects to as I work on them.</description>
+    </item>
+    
+    <item>
+      <title>Making The Site</title>
+      <link>https://gavinjakubik.me/posts/makingthesite/</link>
+      <pubDate>Thu, 04 Jun 2020 22:13:08 +0000</pubDate>
+      
+      <guid>https://gavinjakubik.me/posts/makingthesite/</guid>
+      <description>Building this website with Hugo was surprisingly easy given the ability to use themes that take care of all of the styling for you, leaving only the content creation to the site administrator. One of the problems with Hugo is that it uses static website generation, which is fast but ultimately limiting because it does not enable dynamically serving content. The next thing I hope to do is script the steps of creating a new blog post for this website.</description>
+    </item>
+    
+    <item>
+      <title>Regular Page</title>
+      <link>https://gavinjakubik.me/regularpage/</link>
+      <pubDate>Thu, 04 Jun 2020 22:02:07 +0000</pubDate>
+      
+      <guid>https://gavinjakubik.me/regularpage/</guid>
+      <description>This is an example of a regular page</description>
+    </item>
+    
+  </channel>
+</rss>
