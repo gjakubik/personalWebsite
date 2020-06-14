@@ -7,18 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 04 Jun 2020 22:13:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2020 21:56:27 +0000</lastBuildDate>
     
 	<atom:link href="https://gavinjakubik.me/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>The Switch to Visual Studio Code</title>
+      <link>https://gavinjakubik.me/posts/vscodeswitch/</link>
+      <pubDate>Sat, 13 Jun 2020 21:56:27 +0000</pubDate>
+      
+      <guid>https://gavinjakubik.me/posts/vscodeswitch/</guid>
+      <description>After setting up my website using mostly vim in a terminal that was connected to my VPS through an ssh connection. I knew that there had to be a more efficient way to manage my projects on remote machines with my own code editor than to use FileZilla and Atom. I did some research, and VSCode seemed like the perfect option, as it is an open source project with ample community support and plenty of extensions to personalize any developer&amp;rsquo;s setup.</description>
+    </item>
+    
+    <item>
       <title>About Me</title>
-      <link>https://gavinjakubik.me/about-hugo/</link>
+      <link>https://gavinjakubik.me/aboutgavin/</link>
       <pubDate>Thu, 04 Jun 2020 22:26:56 +0000</pubDate>
       
-      <guid>https://gavinjakubik.me/about-hugo/</guid>
-      <description>I am a Junior Computer Science student at the University of Notre Dame. I am interested in learning more about web development and computer networks, and I made this site to begin gaining experience with both of those skillsets, along with having a space to share updates on my progress. I currently have links to my GitLab, which I mostly use for school assignments, my LinkedIn, and my GitHub, which I will be adding my own projects to as I work on them.</description>
+      <guid>https://gavinjakubik.me/aboutgavin/</guid>
+      <description>I am a junior Computer Science student at the University of Notre Dame. I am interested in learning more about web development and computer networks, and I made this site to begin gaining experience with both of those skillsets, along with having a space to share updates on my progress. I currently have links to my GitLab, which I mostly use for school assignments, my LinkedIn, and my GitHub, which I will be adding my own projects to as I work on them.</description>
     </item>
     
     <item>

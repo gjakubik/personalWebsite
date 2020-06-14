@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 04 Jun 2020 22:13:08 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2020 21:56:27 +0000</lastBuildDate>
     
 	<atom:link href="https://gavinjakubik.me/tags/untagged/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Switch to Visual Studio Code</title>
+      <link>https://gavinjakubik.me/posts/vscodeswitch/</link>
+      <pubDate>Sat, 13 Jun 2020 21:56:27 +0000</pubDate>
+      
+      <guid>https://gavinjakubik.me/posts/vscodeswitch/</guid>
+      <description>After setting up my website using mostly vim in a terminal that was connected to my VPS through an ssh connection. I knew that there had to be a more efficient way to manage my projects on remote machines with my own code editor than to use FileZilla and Atom. I did some research, and VSCode seemed like the perfect option, as it is an open source project with ample community support and plenty of extensions to personalize any developer&amp;rsquo;s setup.</description>
+    </item>
     
     <item>
       <title>Making The Site</title>

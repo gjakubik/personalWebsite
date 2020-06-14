@@ -3,32 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gavinjakubik.me/about-hugo/</loc>
-    <lastmod>2020-06-04T22:26:56+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gavinjakubik.me/</loc>
-    <lastmod>2020-06-04T22:13:08+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gavinjakubik.me/posts/makingthesite/</loc>
-    <lastmod>2020-06-04T22:13:08+00:00</lastmod>
+    <lastmod>2020-06-13T21:56:27+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gavinjakubik.me/posts/</loc>
-    <lastmod>2020-06-04T22:13:08+00:00</lastmod>
+    <lastmod>2020-06-13T21:56:27+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gavinjakubik.me/tags/</loc>
-    <lastmod>2020-06-04T22:13:08+00:00</lastmod>
+    <lastmod>2020-06-13T21:56:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gavinjakubik.me/posts/vscodeswitch/</loc>
+    <lastmod>2020-06-13T21:56:27+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gavinjakubik.me/tags/untagged/</loc>
+    <lastmod>2020-06-13T21:56:27+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gavinjakubik.me/aboutgavin/</loc>
+    <lastmod>2020-06-04T22:26:56+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gavinjakubik.me/posts/makingthesite/</loc>
     <lastmod>2020-06-04T22:13:08+00:00</lastmod>
   </url>
   

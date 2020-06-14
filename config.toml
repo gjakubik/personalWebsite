@@ -34,8 +34,8 @@ buildDrafts = true
 
   # Metadata mostly used in document's head
   # description = ""
-  images = ["/static/Dome Pic.jpg"]
-  themeColor = "#494f5c"
+  images = ["background.jpeg"]
+  themeColor = "#81f7f7"
 
   homeSubtitle = "CS @ ND"
   footerCopyright = ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
@@ -52,7 +52,7 @@ buildDrafts = true
   code_copy_button = true # Turn on/off the code-copy-button for code-fields
 
   # Add custom css
-  customCSS = ["css/style.min.657bcb7af31123e4156b1a3d2ff60a636717e54ead74f882136b5114cf72b55e.css"]
+  customCSS = [""]
 
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
@@ -77,5 +77,5 @@ buildDrafts = true
 
   [[menu.main]]
     name = "About"
-    url = "about-hugo/"
+    url = "aboutgavin/"
     weight = 20
