@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Gavin Jakubik</title>
+    <link>https://gavinjakubik.me/tags/projects/</link>
+    <description>Recent content in Projects on Gavin Jakubik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Mon, 03 Aug 2020 22:13:08 +0000</lastBuildDate>
+    
+	<atom:link href="https://gavinjakubik.me/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>C Scheduler Project</title>
+      <link>https://gavinjakubik.me/projects/schedulerproject/</link>
+      <pubDate>Mon, 03 Aug 2020 22:13:08 +0000</pubDate>
+      
+      <guid>https://gavinjakubik.me/projects/schedulerproject/</guid>
+      <description>This is the first project for my Operating Systems course. For this project I created a library in C that defines several different scheduling policies for a CPU, along with a very simple custom shell that uses the scheduler. The policies I created were First In First Out (FIFO) and Round Robin. This project gave me a good idea of what low level process is in charge of something as important as scheduling every other process running on a computer.</description>
+    </item>
+    
+  </channel>
+</rss>

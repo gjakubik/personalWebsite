@@ -5,7 +5,7 @@ draft: false
 toc: false
 images:
 tags: 
-  - untagged
+  - start
 ---
 
 After setting up my website using mostly vim in a terminal that was connected to my VPS through an ssh connection. I knew that there had to be a more efficient way to manage my projects on remote machines with my own code editor than to use FileZilla and Atom. I did some research, and VSCode seemed like the perfect option, as it is an open source project with ample community support and plenty of extensions to personalize any developer's setup.

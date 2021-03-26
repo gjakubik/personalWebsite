@@ -3,27 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gavinjakubik.me/</loc>
-    <lastmod>2020-06-13T21:56:27+00:00</lastmod>
+    <loc>https://gavinjakubik.me/projects/schedulerproject/</loc>
+    <lastmod>2020-08-03T22:13:08+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gavinjakubik.me/posts/</loc>
-    <lastmod>2020-06-13T21:56:27+00:00</lastmod>
+    <loc>https://gavinjakubik.me/</loc>
+    <lastmod>2020-08-03T22:13:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gavinjakubik.me/tags/operating-systems/</loc>
+    <lastmod>2020-08-03T22:13:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gavinjakubik.me/tags/projects/</loc>
+    <lastmod>2020-08-03T22:13:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gavinjakubik.me/projects/</loc>
+    <lastmod>2020-08-03T22:13:08+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://gavinjakubik.me/tags/</loc>
+    <lastmod>2020-08-03T22:13:08+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gavinjakubik.me/tags/start/</loc>
     <lastmod>2020-06-13T21:56:27+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gavinjakubik.me/posts/vscodeswitch/</loc>
-    <lastmod>2020-06-13T21:56:27+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gavinjakubik.me/tags/untagged/</loc>
+    <loc>https://gavinjakubik.me/projects/vscodeswitch/</loc>
     <lastmod>2020-06-13T21:56:27+00:00</lastmod>
   </url>
   
@@ -33,13 +48,13 @@
   </url>
   
   <url>
-    <loc>https://gavinjakubik.me/posts/makingthesite/</loc>
-    <lastmod>2020-06-04T22:13:08+00:00</lastmod>
+    <loc>https://gavinjakubik.me/regularpage/</loc>
+    <lastmod>2020-06-04T22:02:07+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gavinjakubik.me/regularpage/</loc>
-    <lastmod>2020-06-04T22:02:07+00:00</lastmod>
+    <loc>https://gavinjakubik.me/projects/makingthesite/</loc>
+    <lastmod>2020-06-04T15:22:08+00:00</lastmod>
   </url>
   
 </urlset>

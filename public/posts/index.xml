@@ -6,8 +6,20 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 13 Jun 2020 21:56:27 +0000</lastBuildDate>
+		<lastBuildDate>Mon, 03 Aug 2020 22:13:08 +0000</lastBuildDate>
 		<atom:link href="https://gavinjakubik.me/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>C Scheduler Project</title>
+			<link>https://gavinjakubik.me/posts/schedulerproject/</link>
+			<pubDate>Mon, 03 Aug 2020 22:13:08 +0000</pubDate>
+			
+			<guid>https://gavinjakubik.me/posts/schedulerproject/</guid>
+			<description>This is the first project for my Operating Systems course. For this project I created a library in C that defines several different scheduling policies for a CPU, along with a very simple custom shell that uses the scheduler. The policies I created were First In First Out (FIFO) and Round Robin. This project gave me a good idea of what low level process is in charge of something as important as scheduling every other process running on a computer.</description>
+			<content type="html"><![CDATA[<p>This is the first project for my Operating Systems course. For this project I created a library in C that defines several different scheduling policies for a CPU, along with a very simple custom shell that uses the scheduler. The policies I created were First In First Out (FIFO) and Round Robin. This project gave me a good idea of what low level process is in charge of something as important as scheduling every other process running on a computer. Given these relatively primitive starting algorithms, it is pretty amazing the complex mechanisms that give our devices the performance we have come to expect.</p>
+<p>Here is a <a href="https://youtu.be/RXP19fR82ZQ">link to a video</a> I created demoinstrating the project if you would like to see it in action.</p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>The Switch to Visual Studio Code</title>
@@ -25,7 +37,7 @@
 		<item>
 			<title>Making The Site</title>
 			<link>https://gavinjakubik.me/posts/makingthesite/</link>
-			<pubDate>Thu, 04 Jun 2020 22:13:08 +0000</pubDate>
+			<pubDate>Thu, 04 Jun 2020 15:22:08 +0000</pubDate>
 			
 			<guid>https://gavinjakubik.me/posts/makingthesite/</guid>
 			<description>Building this website with Hugo was surprisingly easy given the ability to use themes that take care of all of the styling for you, leaving only the content creation to the site administrator. One of the problems with Hugo is that it uses static website generation, which is fast but ultimately limiting because it does not enable dynamically serving content. The next thing I hope to do is script the steps of creating a new blog post for this website.</description>
