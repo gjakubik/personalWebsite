@@ -8,10 +8,10 @@ tags:
   - Operating Systems
 ---
 
-This is the second project for my Operating Systems course. For this project I created a library in C that 
+This is the second project for my Operating Systems course. For this project I created a library in C that could send HTTP requests and recieve the responses. To make this application functional, it was necessary to learn how concurrency and more specifically multi-threading works. Along with this came the use of locks and condition variables to make sure that the messages are stored in the correct order(preservation of atomicity).
 
-Here is a [link to a video] I created demoinstrating the project if you would like to see it in action.
+**Demo**: [Chat Client Project Video]
 
 
 
-[link to a video]:    https://youtu.be/RXP19fR82ZQ
+[Chat Client Project Video]:    https://youtu.be/2X7oryR-suQ
