@@ -1,33 +1,82 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Posts on Gavin Jakubik</title>
-		<link>https://gavinjakubik.me/posts/</link>
+		<link>http://localhost:1313/posts/</link>
 		<description>Recent content in Posts on Gavin Jakubik</description>
 		<generator>Hugo -- gohugo.io</generator>
 		<language>en-us</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Mon, 03 Aug 2020 22:13:08 +0000</lastBuildDate>
-		<atom:link href="https://gavinjakubik.me/posts/index.xml" rel="self" type="application/rss+xml" />
+		<lastBuildDate>Thu, 05 Nov 2020 10:55:37 +0000</lastBuildDate>
+		<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Global Terrorism Database Website</title>
+			<link>http://localhost:1313/posts/terrorismwebsite/</link>
+			<pubDate>Thu, 05 Nov 2020 10:55:37 +0000</pubDate>
+			
+			<guid>http://localhost:1313/posts/terrorismwebsite/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>For this project in Programming Paradigms, my partner and I created a website that searches a database of global terrorism events. To make this work, we used Pandas to read in and handle a csv file containing the entirety of the database. This library was used by a REST API that we created using cherrypy, to which we added CORS support. The front end is made up of a classic web stack combination of HTML and JavaScript. We learned a significant amount of JavaScript, especially how to do networking in it, in order to complete this project as it wasn&rsquo;t a language that had been emphasized in our past classes. We focused on making a simple and easy to use interface to pull and display relevant info quickly.</p>
+<p><strong>Demo</strong>: <a href="https://youtu.be/2X7oryR-suQ">Website Demo Video</a>
+<strong>Code Walkthrough</strong>: <a href="https://youtu.be/HWnl8KCLWjA">Code Walkthrough Video</a></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Heap Management Project (Implementing malloc)</title>
+			<link>http://localhost:1313/posts/heapmanagementproject/</link>
+			<pubDate>Sat, 03 Oct 2020 15:17:08 +0000</pubDate>
+			
+			<guid>http://localhost:1313/posts/heapmanagementproject/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>For the third project of Operating Systems, we implemented malloc in C. To do this, we learned how the heap functions. This required setting up an inode structure that kept track of how big blocks are and where they are on the heap. Once memory had been used and freed, we used a free list to keep track of memory that could be used later. We also made use of different fit algorithms to assign blocks for use. We also calculated the amount of internal and external fragmentation, and took care of merging blocks on the free list. This project was especially fun because it applied much of the knowledge we had learned in data structures in a super useful way, and gave me a better understanding of what is happening under the hood when I am coding.</p>
+<p><strong>Demo</strong>: <a href="https://youtu.be/0sVQBVPrpEY">Heap Management Project Video</a></p>
+]]></content>
+		</item>
+		
+		<item>
+			<title>Chat Client Project</title>
+			<link>http://localhost:1313/posts/chatclientproject/</link>
+			<pubDate>Sun, 06 Sep 2020 12:47:08 +0000</pubDate>
+			
+			<guid>http://localhost:1313/posts/chatclientproject/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>This is the second project for my Operating Systems course. For this project I created a library in C that could send HTTP requests and recieve the responses. To make this application functional, it was necessary to learn how concurrency and more specifically multi-threading works. Along with this came the use of locks and condition variables to make sure that the messages are stored in the correct order(preservation of atomicity).</p>
+<p><strong>Demo</strong>: <a href="https://youtu.be/2X7oryR-suQ">Chat Client Project Video</a></p>
+]]></content>
+		</item>
 		
 		<item>
 			<title>C Scheduler Project</title>
-			<link>https://gavinjakubik.me/posts/schedulerproject/</link>
-			<pubDate>Mon, 03 Aug 2020 22:13:08 +0000</pubDate>
+			<link>http://localhost:1313/posts/schedulerproject/</link>
+			<pubDate>Mon, 03 Aug 2020 15:13:08 +0000</pubDate>
 			
-			<guid>https://gavinjakubik.me/posts/schedulerproject/</guid>
-			<description>This is the first project for my Operating Systems course. For this project I created a library in C that defines several different scheduling policies for a CPU, along with a very simple custom shell that uses the scheduler. The policies I created were First In First Out (FIFO) and Round Robin. This project gave me a good idea of what low level process is in charge of something as important as scheduling every other process running on a computer.</description>
+			<guid>http://localhost:1313/posts/schedulerproject/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>This is the first project for my Operating Systems course. For this project I created a library in C that defines several different scheduling policies for a CPU, along with a very simple custom shell that uses the scheduler. The policies I created were First In First Out (FIFO) and Round Robin. This project gave me a good idea of what low level process is in charge of something as important as scheduling every other process running on a computer. Given these relatively primitive starting algorithms, it is pretty amazing the complex mechanisms that give our devices the performance we have come to expect.</p>
 <p>Here is a <a href="https://youtu.be/RXP19fR82ZQ">link to a video</a> I created demoinstrating the project if you would like to see it in action.</p>
 ]]></content>
 		</item>
 		
 		<item>
+			<title>Anheuser-Busch Waste Management Project</title>
+			<link>http://localhost:1313/posts/wastemanagement/</link>
+			<pubDate>Mon, 13 Jul 2020 20:33:18 +0000</pubDate>
+			
+			<guid>http://localhost:1313/posts/wastemanagement/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<p>This project was born out of my friends research into the amount of waste an Anheuser Busch plant produced and how much could possibly be reduced by utilizing recycling. The program takes a csv input file that specifies the name, TKinter to create a GUI that allows the user to interact with the data.</p>
+<p><strong>GitHub</strong>: <a href="https://github.com/edieuebe/waste-management-projet">Waste Management Project</a></p>
+]]></content>
+		</item>
+		
+		<item>
 			<title>The Switch to Visual Studio Code</title>
-			<link>https://gavinjakubik.me/posts/vscodeswitch/</link>
+			<link>http://localhost:1313/posts/vscodeswitch/</link>
 			<pubDate>Sat, 13 Jun 2020 21:56:27 +0000</pubDate>
 			
-			<guid>https://gavinjakubik.me/posts/vscodeswitch/</guid>
-			<description>After setting up my website using mostly vim in a terminal that was connected to my VPS through an ssh connection. I knew that there had to be a more efficient way to manage my projects on remote machines with my own code editor than to use FileZilla and Atom. I did some research, and VSCode seemed like the perfect option, as it is an open source project with ample community support and plenty of extensions to personalize any developer&amp;rsquo;s setup.</description>
+			<guid>http://localhost:1313/posts/vscodeswitch/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>After setting up my website using mostly vim in a terminal that was connected to my VPS through an ssh connection. I knew that there had to be a more efficient way to manage my projects on remote machines with my own code editor than to use FileZilla and Atom. I did some research, and VSCode seemed like the perfect option, as it is an open source project with ample community support and plenty of extensions to personalize any developer&rsquo;s setup.</p>
 <p>After downloading VSCode, I looked into setting myself up with extensions that would be useful and make the aestetics of my environment to my taste. The most important extension by far is the Remote - SSH one, which allows me to open and manage my projects directly on my VPS without having to use other less efficient methods. Another one of my favorite features of VSCode is the availability of a terminal in the editor, whcih makes it easy to quickly run commands and to see code at the same time as it is running in terminal. It certainly is a step up from just having three separate terminal windows open with separate ssh sessions like I have done in the past for my CS assignments.</p>
 <p>This work is not the most glamorous or engaging, especially when you have a project that you really want to start on, but I feel that the amount of time it is already saving me even just to post to my own website is making it well worth my time to set up. The next thing I would like to do is learn how to use vim keybindings to effectively jump around and edit files without having to use the mouse often. This is a skill that can greatly increase my efficiency when writing and editing code.</p>
@@ -36,11 +85,11 @@
 		
 		<item>
 			<title>Making The Site</title>
-			<link>https://gavinjakubik.me/posts/makingthesite/</link>
+			<link>http://localhost:1313/posts/makingthesite/</link>
 			<pubDate>Thu, 04 Jun 2020 15:22:08 +0000</pubDate>
 			
-			<guid>https://gavinjakubik.me/posts/makingthesite/</guid>
-			<description>Building this website with Hugo was surprisingly easy given the ability to use themes that take care of all of the styling for you, leaving only the content creation to the site administrator. One of the problems with Hugo is that it uses static website generation, which is fast but ultimately limiting because it does not enable dynamically serving content. The next thing I hope to do is script the steps of creating a new blog post for this website.</description>
+			<guid>http://localhost:1313/posts/makingthesite/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
 			<content type="html"><![CDATA[<p>Building this website with Hugo was surprisingly easy given the ability to use themes that take care of all of the styling for you, leaving only the content creation to the site administrator. One of the problems with Hugo is that it uses static website generation, which is fast but ultimately limiting because it does not enable dynamically serving content. The next thing I hope to do is script the steps of creating a new blog post for this website. I also want to learn some markdown so that I can make my content more interesting.</p>
 <p>Eventually, I hope to move on to simply using Hugo as a tool to start my own website off of with the html generation, and then possibly use bootstrap to customize my site further than the Hugo theme allowed. I think that scripting the motion of files in my workflow is the next big step in mastering efficiently tackling interesting problems without getting caught up in time-consuming, menial tasks.</p>
 ]]></content>

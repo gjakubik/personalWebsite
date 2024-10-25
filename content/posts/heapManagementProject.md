@@ -1,7 +1,7 @@
 ---
 title: "Heap Management Project (Implementing malloc)"
 date: 2020-10-03T15:17:08Z
-draft: true
+draft: false
 toc: false
 images:
 tags:
@@ -12,6 +12,4 @@ For the third project of Operating Systems, we implemented malloc in C. To do th
 
 **Demo**: [Heap Management Project Video]
 
-
-
-[Heap Management Project Video]:    https://youtu.be/0sVQBVPrpEY
+[Heap Management Project Video]: https://youtu.be/0sVQBVPrpEY

@@ -2,42 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Gavin Jakubik</title>
-    <link>https://gavinjakubik.me/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content in Projects on Gavin Jakubik</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 03 Aug 2020 22:13:08 +0000</lastBuildDate>
-    
-	<atom:link href="https://gavinjakubik.me/projects/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Thu, 05 Nov 2020 10:55:37 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Global Terrorism Database Website</title>
+      <link>http://localhost:1313/projects/terrorismwebsite/</link>
+      <pubDate>Thu, 05 Nov 2020 10:55:37 +0000</pubDate>
+      <guid>http://localhost:1313/projects/terrorismwebsite/</guid>
+      <description>&lt;p&gt;For this project in Programming Paradigms, my partner and I created a website that searches a database of global terrorism events. To make this work, we used Pandas to read in and handle a csv file containing the entirety of the database. This library was used by a REST API that we created using cherrypy, to which we added CORS support. The front end is made up of a classic web stack combination of HTML and JavaScript. We learned a significant amount of JavaScript, especially how to do networking in it, in order to complete this project as it wasn&amp;rsquo;t a language that had been emphasized in our past classes. We focused on making a simple and easy to use interface to pull and display relevant info quickly.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Heap Management Project (Implementing malloc)</title>
+      <link>http://localhost:1313/projects/heapmanagementproject/</link>
+      <pubDate>Sat, 03 Oct 2020 15:17:08 +0000</pubDate>
+      <guid>http://localhost:1313/projects/heapmanagementproject/</guid>
+      <description>&lt;p&gt;For the third project of Operating Systems, we implemented malloc in C. To do this, we learned how the heap functions. This required setting up an inode structure that kept track of how big blocks are and where they are on the heap. Once memory had been used and freed, we used a free list to keep track of memory that could be used later. We also made use of different fit algorithms to assign blocks for use. We also calculated the amount of internal and external fragmentation, and took care of merging blocks on the free list. This project was especially fun because it applied much of the knowledge we had learned in data structures in a super useful way, and gave me a better understanding of what is happening under the hood when I am coding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chat Client Project</title>
+      <link>http://localhost:1313/projects/chatclientproject/</link>
+      <pubDate>Sun, 06 Sep 2020 12:47:08 +0000</pubDate>
+      <guid>http://localhost:1313/projects/chatclientproject/</guid>
+      <description>&lt;p&gt;This is the second project for my Operating Systems course. For this project I created a library in C that could send HTTP requests and recieve the responses. To make this application functional, it was necessary to learn how concurrency and more specifically multi-threading works. Along with this came the use of locks and condition variables to make sure that the messages are stored in the correct order(preservation of atomicity).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>C Scheduler Project</title>
-      <link>https://gavinjakubik.me/projects/schedulerproject/</link>
-      <pubDate>Mon, 03 Aug 2020 22:13:08 +0000</pubDate>
-      
-      <guid>https://gavinjakubik.me/projects/schedulerproject/</guid>
-      <description>This is the first project for my Operating Systems course. For this project I created a library in C that defines several different scheduling policies for a CPU, along with a very simple custom shell that uses the scheduler. The policies I created were First In First Out (FIFO) and Round Robin. This project gave me a good idea of what low level process is in charge of something as important as scheduling every other process running on a computer.</description>
+      <link>http://localhost:1313/projects/schedulerproject/</link>
+      <pubDate>Mon, 03 Aug 2020 15:13:08 +0000</pubDate>
+      <guid>http://localhost:1313/projects/schedulerproject/</guid>
+      <description>&lt;p&gt;This is the first project for my Operating Systems course. For this project I created a library in C that defines several different scheduling policies for a CPU, along with a very simple custom shell that uses the scheduler. The policies I created were First In First Out (FIFO) and Round Robin. This project gave me a good idea of what low level process is in charge of something as important as scheduling every other process running on a computer. Given these relatively primitive starting algorithms, it is pretty amazing the complex mechanisms that give our devices the performance we have come to expect.&lt;/p&gt;</description>
     </item>
-    
+    <item>
+      <title>Anheuser-Busch Waste Management Project</title>
+      <link>http://localhost:1313/projects/wastemanagement/</link>
+      <pubDate>Mon, 13 Jul 2020 20:33:18 +0000</pubDate>
+      <guid>http://localhost:1313/projects/wastemanagement/</guid>
+      <description>&lt;p&gt;This project was born out of my friends research into the amount of waste an Anheuser Busch plant produced and how much could possibly be reduced by utilizing recycling. The program takes a csv input file that specifies the name, TKinter to create a GUI that allows the user to interact with the data.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a href=&#34;https://github.com/edieuebe/waste-management-projet&#34;&gt;Waste Management Project&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Switch to Visual Studio Code</title>
-      <link>https://gavinjakubik.me/projects/vscodeswitch/</link>
+      <link>http://localhost:1313/projects/vscodeswitch/</link>
       <pubDate>Sat, 13 Jun 2020 21:56:27 +0000</pubDate>
-      
-      <guid>https://gavinjakubik.me/projects/vscodeswitch/</guid>
-      <description>After setting up my website using mostly vim in a terminal that was connected to my VPS through an ssh connection. I knew that there had to be a more efficient way to manage my projects on remote machines with my own code editor than to use FileZilla and Atom. I did some research, and VSCode seemed like the perfect option, as it is an open source project with ample community support and plenty of extensions to personalize any developer&amp;rsquo;s setup.</description>
+      <guid>http://localhost:1313/projects/vscodeswitch/</guid>
+      <description>&lt;p&gt;After setting up my website using mostly vim in a terminal that was connected to my VPS through an ssh connection. I knew that there had to be a more efficient way to manage my projects on remote machines with my own code editor than to use FileZilla and Atom. I did some research, and VSCode seemed like the perfect option, as it is an open source project with ample community support and plenty of extensions to personalize any developer&amp;rsquo;s setup.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Making The Site</title>
-      <link>https://gavinjakubik.me/projects/makingthesite/</link>
+      <link>http://localhost:1313/projects/makingthesite/</link>
       <pubDate>Thu, 04 Jun 2020 15:22:08 +0000</pubDate>
-      
-      <guid>https://gavinjakubik.me/projects/makingthesite/</guid>
-      <description>Building this website with Hugo was surprisingly easy given the ability to use themes that take care of all of the styling for you, leaving only the content creation to the site administrator. One of the problems with Hugo is that it uses static website generation, which is fast but ultimately limiting because it does not enable dynamically serving content. The next thing I hope to do is script the steps of creating a new blog post for this website.</description>
+      <guid>http://localhost:1313/projects/makingthesite/</guid>
+      <description>&lt;p&gt;Building this website with Hugo was surprisingly easy given the ability to use themes that take care of all of the styling for you, leaving only the content creation to the site administrator. One of the problems with Hugo is that it uses static website generation, which is fast but ultimately limiting because it does not enable dynamically serving content. The next thing I hope to do is script the steps of creating a new blog post for this website. I also want to learn some markdown so that I can make my content more interesting.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

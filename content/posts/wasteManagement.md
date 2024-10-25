@@ -1,7 +1,7 @@
 ---
 title: "Anheuser-Busch Waste Management Project"
 date: 2020-07-13T20:33:18Z
-draft: true
+draft: false
 toc: false
 images:
 tags:
@@ -11,6 +11,4 @@ This project was born out of my friends research into the amount of waste an Anh
 
 **GitHub**: [Waste Management Project]
 
-
-
-[Waste Management Project]:    https://github.com/edieuebe/waste-management-projet
+[Waste Management Project]: https://github.com/edieuebe/waste-management-projet

@@ -2,24 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Operating Systems on Gavin Jakubik</title>
-    <link>https://gavinjakubik.me/tags/operating-systems/</link>
+    <link>http://localhost:1313/tags/operating-systems/</link>
     <description>Recent content in Operating Systems on Gavin Jakubik</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 03 Aug 2020 22:13:08 +0000</lastBuildDate>
-    
-	<atom:link href="https://gavinjakubik.me/tags/operating-systems/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 03 Oct 2020 15:17:08 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/operating-systems/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heap Management Project (Implementing malloc)</title>
+      <link>http://localhost:1313/posts/heapmanagementproject/</link>
+      <pubDate>Sat, 03 Oct 2020 15:17:08 +0000</pubDate>
+      <guid>http://localhost:1313/posts/heapmanagementproject/</guid>
+      <description>&lt;p&gt;For the third project of Operating Systems, we implemented malloc in C. To do this, we learned how the heap functions. This required setting up an inode structure that kept track of how big blocks are and where they are on the heap. Once memory had been used and freed, we used a free list to keep track of memory that could be used later. We also made use of different fit algorithms to assign blocks for use. We also calculated the amount of internal and external fragmentation, and took care of merging blocks on the free list. This project was especially fun because it applied much of the knowledge we had learned in data structures in a super useful way, and gave me a better understanding of what is happening under the hood when I am coding.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Chat Client Project</title>
+      <link>http://localhost:1313/posts/chatclientproject/</link>
+      <pubDate>Sun, 06 Sep 2020 12:47:08 +0000</pubDate>
+      <guid>http://localhost:1313/posts/chatclientproject/</guid>
+      <description>&lt;p&gt;This is the second project for my Operating Systems course. For this project I created a library in C that could send HTTP requests and recieve the responses. To make this application functional, it was necessary to learn how concurrency and more specifically multi-threading works. Along with this came the use of locks and condition variables to make sure that the messages are stored in the correct order(preservation of atomicity).&lt;/p&gt;</description>
+    </item>
     <item>
       <title>C Scheduler Project</title>
-      <link>https://gavinjakubik.me/projects/schedulerproject/</link>
-      <pubDate>Mon, 03 Aug 2020 22:13:08 +0000</pubDate>
-      
-      <guid>https://gavinjakubik.me/projects/schedulerproject/</guid>
-      <description>This is the first project for my Operating Systems course. For this project I created a library in C that defines several different scheduling policies for a CPU, along with a very simple custom shell that uses the scheduler. The policies I created were First In First Out (FIFO) and Round Robin. This project gave me a good idea of what low level process is in charge of something as important as scheduling every other process running on a computer.</description>
+      <link>http://localhost:1313/posts/schedulerproject/</link>
+      <pubDate>Mon, 03 Aug 2020 15:13:08 +0000</pubDate>
+      <guid>http://localhost:1313/posts/schedulerproject/</guid>
+      <description>&lt;p&gt;This is the first project for my Operating Systems course. For this project I created a library in C that defines several different scheduling policies for a CPU, along with a very simple custom shell that uses the scheduler. The policies I created were First In First Out (FIFO) and Round Robin. This project gave me a good idea of what low level process is in charge of something as important as scheduling every other process running on a computer. Given these relatively primitive starting algorithms, it is pretty amazing the complex mechanisms that give our devices the performance we have come to expect.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

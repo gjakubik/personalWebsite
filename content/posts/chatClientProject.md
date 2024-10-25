@@ -1,7 +1,7 @@
 ---
 title: "Chat Client Project"
 date: 2020-09-06T12:47:08Z
-draft: true
+draft: false
 toc: false
 images:
 tags:
@@ -12,6 +12,4 @@ This is the second project for my Operating Systems course. For this project I c
 
 **Demo**: [Chat Client Project Video]
 
-
-
-[Chat Client Project Video]:    https://youtu.be/2X7oryR-suQ
+[Chat Client Project Video]: https://youtu.be/2X7oryR-suQ
