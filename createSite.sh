@@ -2,7 +2,7 @@
 
 # Generate Website
 echo "Generating site..."
-sudo hugo
+hugo
 
 #Copy to server root
 echo "Moving to server root.."
